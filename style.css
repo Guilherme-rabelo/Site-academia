@@ -355,7 +355,6 @@ aside#conteudo3 > h1{
 .containerbody{
     display: flex;
     flex-direction: column;
-    gap: 20px;
 }
 
 .containerbody a{
@@ -574,7 +573,7 @@ aside#conteudo4 >img{
     box-shadow: 3px 3px 5px rgb(19, 7, 7);
 }
 aside#conteudo4 > img:hover{
-    transform: scalex(1.2);
+    transform: scalex(1.4);
 }
 
 aside#suporte{
@@ -671,5 +670,44 @@ footer{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+aside#conteudo3{
+    background-color: rgb(255, 255, 255);
+    height: 1600px;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+aside#conteudo4{
+    height: 1200px;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+aside#conteudo4 >img{
+    height: 300px;
+    width: 300px;
+    border-radius: 15%;
+    box-shadow: 3px 3px 5px rgb(19, 7, 7);
+}
+
+aside#suporte{
+    height: 900px;
+    font-size: 1px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.card-suporte > h1{
+    font-size: 25px;
 }
 }
