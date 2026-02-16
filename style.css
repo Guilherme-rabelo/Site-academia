@@ -34,7 +34,7 @@ header{
 }
 
 nav {
-    background-color: hsl(0, 0%, 0%);
+    background-color:#751e1e;
     width: 100%;
     position: fixed;
     z-index: 9999;
@@ -49,7 +49,7 @@ nav {
 
 nav > p {
     margin: 0;                   /* remove margem padrão */
-    color: white;
+    color:#fcb4b4;
     font-family: normal;  /* fonte melhor definida */
     font-size: 25px;
     font-weight: bold;
@@ -73,7 +73,7 @@ nav > div > a {
 
 nav > div > a:hover {
     font-size: 1.1em;
-    background-color: rgb(146, 146, 146);
+    background-color: #fcb4b4;
     text-decoration: underline;
     transition-duration: 0.1s;
 }
@@ -90,6 +90,8 @@ article{
 article > h1{
     font-family: flasty;
     font-size: 4em;
+    text-shadow: 0px 0px 10px rgb(95, 17, 17);;
+    color: #fcb4b4;
     padding-left: 40px;
     padding-top: 100px;
     padding-bottom: 40px;
@@ -108,7 +110,7 @@ article > p{
     justify-content: center;
     align-items: center;
     font-family: normal;
-    box-shadow: 5px 5px 5px rgb(19, 7, 7);
+    box-shadow: 0px 0px 10px rgb(95, 17, 17);
     width: 180px;
     height: 80px;    
     margin-top: 2px;
@@ -121,7 +123,7 @@ article > p{
 }
 aside#conteudo1{
     color: rgb(0, 0, 0);
-    background-color: white;
+    background-color:white;
     height: 440px;
     align-items: center;
     justify-content: center;
@@ -131,13 +133,14 @@ main > aside > h1{
     font-family:flasty, Helvetica, sans-serif;
     color: whitesmoke;
     font-size: 3em;
-    text-shadow: 5px 5px 5px rgb(71, 71, 71);
+    text-shadow: 5px 5px 5px rgb(71, 13, 13);
     padding-top: 65px;
     padding: 25px;
 }
 
 aside#conteudo1 > h1{
     padding-top: 90px;
+    color: #fcb4b4;
 }
 aside#conteudo1 > h1 > strong{
     color: rgb(133, 26, 26);
@@ -368,6 +371,7 @@ div > hr{
     position: absolute;
     left: 10%;
     border-color: rgb(204, 24, 1);
+    box-shadow: 0 0 10px #ff0000;
     width: 80%;
 }
 div#q1{
@@ -614,9 +618,10 @@ aside#suporte div > hr{
 }
 
 footer{
-    background-color: black;
+    background-color: #751e1e;
     text-align: center;
-    color: lightgray;
+    font-family: normal;
+    color: #fcb4b4;
     margin: 0%;
     width: 100%;
     height: 90px;
