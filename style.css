@@ -13,7 +13,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(37, 37, 37);
+    background-color: rgb(0, 0, 0);
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
 }
@@ -35,6 +35,8 @@ header{
 
 nav {
     background-color:#751e1e;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
     width: 100%;
     position: fixed;
     z-index: 9999;
